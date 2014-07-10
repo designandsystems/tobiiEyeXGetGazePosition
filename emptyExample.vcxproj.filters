@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EyeXHost.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{3c10e8fa-7786-4d19-8292-344734000ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\tobii">
+      <UniqueIdentifier>{55bc2f7d-6a8f-46bc-b7fc-01f55fa3acaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\tobii\include">
+      <UniqueIdentifier>{f5ca81a6-a93b-4984-8af3-308037faa119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\tobii\lib">
+      <UniqueIdentifier>{e2cff6b9-7918-48b3-ac26-86cf95108a14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\tobii\include\eyex">
+      <UniqueIdentifier>{61274bea-5484-4ffc-ab3c-d9b8369b7620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\tobii\lib\x86">
+      <UniqueIdentifier>{0768525b-fc36-4269-8fb7-dac2c9868a77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\tobii\include\eyex\EyeXInternalTypes.h">
+      <Filter>addons\tobii\include\eyex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\tobii\include\eyex\EyeXLiterals.h">
+      <Filter>addons\tobii\include\eyex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\tobii\include\eyex\EyeXMacros.h">
+      <Filter>addons\tobii\include\eyex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\tobii\include\eyex\EyeXNotification.h">
+      <Filter>addons\tobii\include\eyex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\tobii\include\eyex\EyeXObject.h">
+      <Filter>addons\tobii\include\eyex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\tobii\include\eyex\EyeXProperty.h">
+      <Filter>addons\tobii\include\eyex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\tobii\include\eyex\EyeXQuery.h">
+      <Filter>addons\tobii\include\eyex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\tobii\include\eyex\EyeXSnapshot.h">
+      <Filter>addons\tobii\include\eyex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\tobii\include\eyex\EyeXStates.h">
+      <Filter>addons\tobii\include\eyex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\tobii\include\eyex\EyeXSystem.h">
+      <Filter>addons\tobii\include\eyex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\tobii\include\eyex\EyeXUtils.h">
+      <Filter>addons\tobii\include\eyex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\tobii\include\eyex\EyeX.h">
+      <Filter>addons\tobii\include\eyex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\tobii\include\eyex\EyeXActions.h">
+      <Filter>addons\tobii\include\eyex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\tobii\include\eyex\EyeXAsyncData.h">
+      <Filter>addons\tobii\include\eyex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\tobii\include\eyex\EyeXBehavior.h">
+      <Filter>addons\tobii\include\eyex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\tobii\include\eyex\EyeXBounds.h">
+      <Filter>addons\tobii\include\eyex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\tobii\include\eyex\EyeXClientTypes.h">
+      <Filter>addons\tobii\include\eyex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\tobii\include\eyex\EyeXCommand.h">
+      <Filter>addons\tobii\include\eyex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\tobii\include\eyex\EyeXContext.h">
+      <Filter>addons\tobii\include\eyex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\tobii\include\eyex\EyeXEvent.h">
+      <Filter>addons\tobii\include\eyex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\tobii\include\eyex\EyeXFrameworkTypes.h">
+      <Filter>addons\tobii\include\eyex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\tobii\include\eyex\EyeXInteractor.h">
+      <Filter>addons\tobii\include\eyex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\tobii\include\eyex\EyeXInternalLiterals.h">
+      <Filter>addons\tobii\include\eyex</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EyeXHost.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\addons\tobii\lib\x86\Tobii.EyeX.Client.dll">
+      <Filter>addons\tobii\lib\x86</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\addons\tobii\lib\x86\Tobii.EyeX.Client.lib">
+      <Filter>addons\tobii\lib\x86</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
